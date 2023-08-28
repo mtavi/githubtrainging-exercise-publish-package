@@ -4,7 +4,7 @@
   "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mtavi/githubtrainging-exercise-publish-package/issues"
   },
-  "homepage": "https://github.com/mtavi/githubtrainging-exercise-publish-package#readme"
+  "homepage": "https://github.com/mtavi/githubtrainging-exercise-publish-package#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
 }
