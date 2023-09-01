@@ -1,5 +1,5 @@
 {
-  "name": "githubtrainging-exercise-publish-package",
+  "name": "@mtavi/githubtrainging-exercise-publish-package",
   "version": "0.0.1",
   "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
   "main": "index.js",
