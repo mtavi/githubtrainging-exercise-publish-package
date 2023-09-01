@@ -1,6 +1,6 @@
 {
   "name": "githubtrainging-exercise-publish-package",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This exercise checks your ability to publish to a GitHub Packages registry. It is automatically graded via a workflow once you have completed the instructions.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mtavi/githubtrainging-exercise-publish-package.git"
+    "url": "https://github.com/mtavi/githubtrainging-exercise-publish-package.git"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/mtavi/githubtrainging-exercise-publish-package#readme",
   "devDependencies": {
     "jest": "^29.6.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
